@@ -1,0 +1,52 @@
+@import "./variables";
+
+.todo-app {
+  width: 100%;
+  height: auto;
+  margin-bottom: 85px;
+  padding-top: 25px;
+  border: 2px solid $orange;
+  text-align: center;
+  position: relative;
+}
+
+.todo-input {
+  display: block;
+  width: 50%;
+  height: 45px;
+  margin: 25px auto;
+  padding-left: 65px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.todo-input:focus {
+  box-shadow: 5px 5px 15px rgb(96, 149, 209);
+  border:0;
+}
+
+.submit-btn {
+  height: 45px;
+  min-width: 140px;
+  padding: 5px 15px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(109, 109, 109);
+  position: absolute;
+  top: 80px; right: 290px;
+}
+
+.submit-btn:hover {
+  background-color:$orange;
+  border:0;
+  color:$gray;
+}
+
+.todo-pen {
+  height: 33px;
+  position: absolute;
+  top: 86px;
+  left: 305px;
+}

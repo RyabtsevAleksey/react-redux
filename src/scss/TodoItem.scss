@@ -1,0 +1,52 @@
+@import './variables';
+
+
+.main {
+  display: flex;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+
+.complete {
+  width: auto;
+}
+
+.complete img {
+  height: 35px;
+  border:1px solid wheat;
+}
+
+.text-false {
+  height: 35px;
+  width: 90%;
+  line-height: 23px;
+  padding: 5px 15px;
+  background-color:$orange;
+  border:1px solid wheat;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-true {
+  height: 35px;
+  width: 90%;
+  line-height: 23px;
+  padding: 5px 15px;
+  background-color:$orange;
+  border:1px solid black;
+  font-family: Nunito;
+  text-decoration: line-through;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.delete {
+  width: auto;
+}
+
+.delete img {
+  height: 35px;
+}
